@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <form action="/api/productos" method="post" target="_self">
+        <div class="form-example">
+          <label for="title">Nombre del Producto </label>
+          <input type="text" name="title" id="title" required>
+        </div>
+        <div class="form-example">
+          <label for="price">Precio del Producto </label>
+          <input type="number" name="price" id="price" required>
+        </div>
+        <div class="form-example">
+            <label for="thumbnail">Url de thumbnail </label>
+            <input type="url" name="thumbnail" id="thumbnail" required>
+          </div>
+        <div class="form-example">
+          <input type="submit" value="Subscribe!">
+        </div>
+      </form>
+      
+</body>
+</html>
